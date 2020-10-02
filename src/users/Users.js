@@ -7,7 +7,7 @@ const UsersList = ({users = [], deleteUser}) => {
     console.log(typeof(users));
 
     const handleChange = evt => {
-        deleteUser(evt.target.dataset.id)
+        deleteUser(parseInt(evt.target.dataset.id))
     }
 
     return (
