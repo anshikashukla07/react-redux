@@ -9,7 +9,7 @@ export const addUserData =  (data) => {
 };
 
 export const deleteUserData =  (id) => {
-	console.log(id)
+	
 	return {
 		type: userDataActionTypes.DELETE_USER,
 		payload: id,
