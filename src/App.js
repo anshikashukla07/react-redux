@@ -29,7 +29,7 @@ function App(props) {
 
   }
   
-  console.log("App.js : ", props.users);
+  
 
   return (
 
